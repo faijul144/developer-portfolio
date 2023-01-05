@@ -21,15 +21,109 @@ nav{
 
 nav ul{
     display: flex;
+    align-items: center;
 }
 
 nav li{
     list-style: none;
     margin-left: 50px;
-    align-items: center;
 }
 
 nav a{
     text-decoration: none;
     color: #000;
+}
+
+.btn-primary{
+    height: 64px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 18px 35px;
+    border:0;
+}
+
+/* Banner Styles */
+.header{
+    background: #FFF8F3;
+    background-image: url("./../images/header_bg.png"),url("./../images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+
+
+.banner-title{
+    font-weight: 700;
+    font-size: 85px;
+}
+
+.banner-sub-title{
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.banner-description{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+/* main section */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section */
+
+.about{
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.section-title{
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.section-description{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+/* about info */
+
+.about-info-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-info{
+    font-size: 20px;
+}
+
+.info-title{
+    color: #757575;
+}
+
+.info-description{
+    color: #474747;
+    font-weight: 700;
 }
